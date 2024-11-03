@@ -45,8 +45,8 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-uint8_t tx_data[1];
-uint8_t rx_data[6];
+float x_accel,y_accel,z_accel;
+float x_gyro,y_gyro,z_gyro;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -60,10 +60,6 @@ void SystemClock_Config(void);
 
 /* USER CODE END 0 */
 
-/**
-  * @brief  The application entry point.
-  * @retval int
-  */
 int main(void)
 {
 
