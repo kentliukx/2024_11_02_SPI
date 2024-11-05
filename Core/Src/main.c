@@ -17,9 +17,11 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
-#include "mpu.h"
 #include "tim.h"
 #include "gpio.h"
+#include "main.h"
+#include "spi.h"
+#include "mpu.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */

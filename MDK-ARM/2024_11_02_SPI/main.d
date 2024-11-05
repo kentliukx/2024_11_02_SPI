@@ -1,4 +1,4 @@
-2024_11_02_spi/main.o: ..\Core\Src\main.c ..\Core\Inc\mpu.h \
+2024_11_02_spi/main.o: ..\Core\Src\main.c ..\Core\Inc\tim.h \
   ..\Core\Inc\main.h ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h \
   ..\Core\Inc\stm32f4xx_hal_conf.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h \
@@ -29,4 +29,4 @@
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h \
-  ..\Core\Inc\spi.h ..\Core\Inc\tim.h ..\Core\Inc\gpio.h
+  ..\Core\Inc\gpio.h ..\Core\Inc\spi.h ..\Core\Inc\mpu.h

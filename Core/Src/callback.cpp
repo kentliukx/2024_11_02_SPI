@@ -1,6 +1,7 @@
 //
 // Created by kentl on 24-11-2.
 //
+#include "tim.h"
 #include "mpu.h"
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
